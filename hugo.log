@@ -1,0 +1,27 @@
+Watching for changes in /home/dmdecke/notworkplace/ddecks/archetypes, /home/dmdecke/notworkplace/ddecks/assets/images, /home/dmdecke/notworkplace/ddecks/content/log, /home/dmdecke/notworkplace/ddecks/data, /home/dmdecke/notworkplace/ddecks/i18n, /home/dmdecke/notworkplace/ddecks/layouts, /home/dmdecke/notworkplace/ddecks/static, /home/dmdecke/notworkplace/ddecks/themes/hugo-theme-relearn/archetypes, /home/dmdecke/notworkplace/ddecks/themes/hugo-theme-relearn/assets/{css,fonts,js}, /home/dmdecke/notworkplace/ddecks/themes/hugo-theme-relearn/content/_relearn, ... and 2 more
+Watching for config changes in /home/dmdecke/notworkplace/ddecks/hugo.toml, /home/dmdecke/notworkplace/ddecks/themes/hugo-theme-relearn/hugo.toml
+Start building sites … 
+hugo v0.154.3-b1c1bd019f4d65d4ebc979e2157279bb229b457f linux/amd64 BuildDate=2026-01-06T16:30:17Z VendorInfo=gohugoio
+
+
+                  │ EN 
+──────────────────┼────
+ Pages            │ 11 
+ Paginator pages  │  0 
+ Non-page files   │  0 
+ Static files     │  0 
+ Processed images │  0 
+ Aliases          │  0 
+ Cleaned          │  0 
+
+Built in 38 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/deadfast/ (bind address 0.0.0.0) 
+Press Ctrl+C to stop
+
+Change of config file detected, rebuilding site (#1).
+2026-01-09 18:55:57.407 +0000
+Web Server is available at http://localhost:1313/ (bind address 0.0.0.0)
+Rebuilt in 117 ms
