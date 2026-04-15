@@ -14,7 +14,7 @@ I build CLI tools, tinker with hardware projects, and study for AWS certs in my 
 
 - Rust, Python, Bash
 - AWS  I work with AWS products daily
-- Terminal-first workflows, tmux linux, when I have to windows 
+- Terminal-first workflows, termux, Android, linux, when I have to windows 
 - Hugo for blogging, Obsidian for notes
 - Hardware tinkering
 - I have two daughters so anything cool and techy I can build for them.
