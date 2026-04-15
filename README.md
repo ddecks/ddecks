@@ -13,10 +13,11 @@ I build CLI tools, tinker with hardware projects, and study for AWS certs in my 
 ## Tools & interests
 
 - Rust, Python, Bash
-- AWS (studying for SAA-C03, work with AWS products daily)
-- Terminal-first workflows — I run Kiro CLI on my phone via Termux
+- AWS  I work with AWS products daily
+- Terminal-first workflows, tmux linux, when I have to windows 
 - Hugo for blogging, Obsidian for notes
-- Hardware tinkering (self-balancing cube is on the someday list)
+- Hardware tinkering
+- I have two daughters so anything cool and techy I can build for them.
 
 ## Writing
 
