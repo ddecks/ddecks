@@ -1,9 +1,10 @@
 +++
 title = "Gardens of the Moon"
 date = "2024-09-16"
-tags = ["series", "fantasy", "high-fantasy"]
+tags = ["series", "fantasy", "high-fantasy", "abandoned"]
 [params]
   author = "Steven Erikson"
+  publish_date = "2004"
   rating = 69
   status = "abandoned"
   genre = "fantasy"

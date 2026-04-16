@@ -1,10 +1,12 @@
 +++
 title = "Beware of Chicken"
 date = "2024-09-16"
-tags = ["xiaxia", "cultivation", "series", "RR"]
+tags = ["xiaxia", "cultivation", "series", "RR", "abandoned"]
 [params]
   author = "Casualfarmer"
+  publish_date = "2023"
   rating = 90
+  recommender = "RR"
   status = "abandoned"
   genre = "webnovel"
 +++

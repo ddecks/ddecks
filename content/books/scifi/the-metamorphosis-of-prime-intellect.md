@@ -1,10 +1,12 @@
 +++
 title = "The Metamorphosis of Prime Intellect"
 date = "2024-09-16"
-tags = ["ai", "vr", "deathgames"]
+tags = ["ai", "vr", "deathgames", "finished"]
 [params]
   author = "Roger Williams"
+  publish_date = "2003"
   rating = 81
+  recommender = "George Hotz"
   status = "finished"
   genre = "scifi"
 +++

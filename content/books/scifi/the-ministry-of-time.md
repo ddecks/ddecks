@@ -1,10 +1,11 @@
 +++
 title = "The Ministry of Time"
 date = "2025-03-24"
-tags = ["#", "s", "c", "i", "f", "i", " ", "#", "t", "i", "m", "e", "-", "t", "r", "a", "v", "e", "l"]
+tags = ["scifi", "time-travel", "potential"]
 [params]
   author = "Kaliane Bradley"
-  rating = "/10"
+  publish_date = "2024"
+  recommender = "https://shkspr.mobi/blog/"
   status = "potential"
   genre = "scifi"
 +++
@@ -12,5 +13,4 @@ tags = ["#", "s", "c", "i", "f", "i", " ", "#", "t", "i", "m", "e", "-", "t", "r
 ![Cover](https://books.google.com/books/content?id=x8f0EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
 Quick sum: silly to dark to thought provoking 
 
-> **Started: Finished:**
 > [Goodreads+](https://www.goodreads.com/search?qid=&q=9781668045145)

@@ -1,9 +1,12 @@
 +++
 title = "Fathomfolk"
 date = "2024-09-18"
+tags = ["abandoned"]
 [params]
   author = "Eliza Chan"
+  publish_date = "2024"
   rating = 20
+  recommender = "reactormag"
   status = "abandoned"
   genre = "fantasy"
 +++

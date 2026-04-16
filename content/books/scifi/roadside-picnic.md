@@ -1,10 +1,12 @@
 +++
 title = "Roadside Picnic"
 date = "2024-09-23"
-tags = ["scifi", "russian"]
+tags = ["scifi", "russian", "finished"]
 [params]
   author = "Arkady Strugatsky\", \"Boris Strugatsky\", \"Olena Bormashenko"
+  publish_date = "1970"
   rating = 78
+  recommender = "HN"
   status = "finished"
   genre = "scifi"
 +++
@@ -12,7 +14,6 @@ tags = ["scifi", "russian"]
 ![Cover](https://books.google.com/books/content?id=AC1ACia5WjwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
 Quick sum:   Forward by Ursula Le Guinn makes me want to read more of her books
 
-> **Started: Finished:**
 > [Goodreads+](https://www.goodreads.com/search?qid=&q=9781613743447)
 
  

@@ -1,10 +1,12 @@
 +++
 title = "Lord Of Mysteries"
 date = "2024-09-16"
-tags = ["victorian-era", "progressive", "fantasy", "steampunk", "webnovel", "serial"]
+tags = ["victorian-era", "progressive", "fantasy", "steampunk", "webnovel", "serial", "abandoned"]
 [params]
   author = "Cuttlefish That Loves Diving"
+  publish_date = "2023"
   rating = 78
+  recommender = "WN"
   status = "abandoned"
   genre = "webnovel"
 +++

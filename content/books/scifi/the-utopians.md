@@ -1,6 +1,7 @@
 +++
-title = "Untitled"
-tags = ["scifi", "3DPrinter"]
+title = "The Utopians"
+date = "2024-09-12"
+tags = ["scifi", "3DPrinter", "finished"]
 [params]
   rating = 68
   status = "finished"

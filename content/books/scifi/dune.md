@@ -1,10 +1,12 @@
 +++
 title = "Dune"
 date = "2024-09-17"
-tags = ["scifi", "space"]
+tags = ["scifi", "space", "finished"]
 [params]
   author = "Frank Herbert"
+  publish_date = "2015"
   rating = 71
+  recommender = "Harrison Poster"
   status = "finished"
   genre = "scifi"
 +++

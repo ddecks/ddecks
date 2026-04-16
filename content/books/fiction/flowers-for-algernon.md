@@ -1,10 +1,12 @@
 +++
 title = "Flowers for Algernon"
 date = "2024-09-16"
-tags = ["Trauma", "mental", "health", "sadness", "self-help", "radical-acceptance"]
+tags = ["Trauma", "mental", "health", "sadness", "self-help", "radical-acceptance", "finished"]
 [params]
   author = "Daniel Keyes"
+  publish_date = "2003"
   rating = 74
+  recommender = "Sam Markawitz"
   status = "finished"
   genre = "fiction"
 +++

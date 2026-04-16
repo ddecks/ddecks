@@ -1,7 +1,7 @@
 +++
 title = "A Record of a Mortal’s Journey to Immortality"
 date = "2024-09-16"
-tags = ["xiaxia", "martial", "arts", "action", "fantasy", "webnovel", "ongoing", "cultivate"]
+tags = ["xiaxia", "martial", "arts", "action", "fantasy", "webnovel", "ongoing", "cultivate", "finished"]
 [params]
   author = "Wang Yu"
   rating = 84

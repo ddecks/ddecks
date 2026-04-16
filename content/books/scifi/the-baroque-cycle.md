@@ -1,9 +1,10 @@
 +++
 title = "The Baroque Cycle"
 date = "2024-09-16"
-tags = ["victorian-era", "scifi", "colonial"]
+tags = ["victorian-era", "scifi", "colonial", "abandoned"]
 [params]
   author = "Neal Stephenson"
+  publish_date = "2014"
   status = "abandoned"
   genre = "scifi"
 +++

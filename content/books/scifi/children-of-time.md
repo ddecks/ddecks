@@ -1,9 +1,10 @@
 +++
 title = "Children of Time"
 date = "2024-09-16"
-tags = ["spiders", "space", "alien", "evolution"]
+tags = ["spiders", "space", "alien", "evolution", "finished"]
 [params]
   author = "Adrian Tchaikovsky"
+  publish_date = "2018"
   rating = 73
   status = "finished"
   genre = "scifi"

@@ -1,9 +1,10 @@
 +++
 title = "Going Postal"
 date = "2024-09-16"
-tags = ["funny", "fantasy", "satire", "Pratchett"]
+tags = ["funny", "fantasy", "satire", "Pratchett", "finished"]
 [params]
   author = "Terry Pratchett"
+  publish_date = "2005"
   rating = 78
   status = "finished"
   genre = "fantasy"

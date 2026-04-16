@@ -1,10 +1,12 @@
 +++
 title = "The Butcher of Gadobhra"
 date = "2024-09-16"
-tags = ["Fantasy", "work", "vr", "bigCorp", "webnovel"]
+tags = ["Fantasy", "work", "vr", "bigCorp", "webnovel", "abandoned"]
 [params]
   author = "The Walrus King"
+  publish_date = "2021"
   rating = 64
+  recommender = "RR"
   status = "abandoned"
   genre = "webnovel"
 +++

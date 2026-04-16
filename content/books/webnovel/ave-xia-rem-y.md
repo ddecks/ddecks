@@ -1,10 +1,12 @@
 +++
 title = "Ave Xia Rem Y"
 date = "2024-09-16"
-tags = ["fantasy", "webnovel", "harem", "progressive", "healer"]
+tags = ["fantasy", "webnovel", "harem", "progressive", "healer", "abandoned"]
 [params]
   author = "Mat Haz"
+  publish_date = "2018"
   rating = 78
+  recommender = "RR"
   status = "abandoned"
   genre = "webnovel"
 +++

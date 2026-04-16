@@ -1,10 +1,12 @@
 +++
 title = "Killing Commendatore"
 date = "2024-09-16"
-tags = ["mystical", "mind-bending", "Japanese", "simple", "Murakami"]
+tags = ["mystical", "mind-bending", "Japanese", "simple", "Murakami", "finished"]
 [params]
   author = "Haruki Murakami"
+  publish_date = "2019"
   rating = 67
+  recommender = "Devin"
   status = "finished"
   genre = "fiction"
 +++
@@ -16,7 +18,3 @@ I thought the book had some interesting ethereal qualities. It wasn't my favorit
 
 > **Note**
 > [Goodreads](https://www.goodreads.com/search?qid=&q=9780385690713)
-
- 
-
-URL: :[Goodreads](https://www.goodreads.com/search?qid=&q=9780385690713)

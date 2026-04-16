@@ -1,10 +1,12 @@
 +++
 title = "Worm"
 date = "2024-09-16"
-tags = ["super", "heroes", "fun", "series", "willReturn", "serial"]
+tags = ["super", "heroes", "fun", "series", "willReturn", "serial", "abandoned"]
 [params]
   author = "John C. McCrae"
+  publish_date = "2013"
   rating = 89
+  recommender = "reddit"
   status = "abandoned"
   genre = "webnovel"
 +++

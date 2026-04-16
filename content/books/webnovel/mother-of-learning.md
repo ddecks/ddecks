@@ -1,10 +1,12 @@
 +++
 title = "Mother of Learning"
 date = "2024-09-16"
-tags = ["time-skip", "-", "magic", "-", "fantasy", "-", "redos"]
+tags = ["time-skip", "-", "magic", "-", "fantasy", "-", "redos", "finished"]
 [params]
   author = "nobody103, Domagoj Kurmaic"
+  publish_date = "2021"
   rating = 97
+  recommender = "RR"
   status = "finished"
   genre = "webnovel"
 +++

@@ -1,9 +1,11 @@
 +++
 title = "There is No Antimemetics Division"
 date = "2025-04-07"
+tags = ["potential"]
 [params]
   author = "Qntm"
-  rating = "/10"
+  publish_date = "2020"
+  recommender = "https://theaiunderwriter.substack.com"
   status = "potential"
   genre = "fiction"
 +++
@@ -11,5 +13,4 @@ date = "2025-04-07"
 ![Cover]( )
 Quick sum:  
 
-> **Started: Finished:**
 > [Goodreads+](https://www.goodreads.com/search?qid=&q=9798721503788)

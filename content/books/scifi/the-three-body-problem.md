@@ -1,9 +1,10 @@
 +++
 title = "The Three-Body Problem"
 date = "2024-09-16"
-tags = ["vr", "aliens", "heat_death_universe"]
+tags = ["vr", "aliens", "heat_death_universe", "finished"]
 [params]
   author = "Cixin Liu"
+  publish_date = "2014"
   rating = 81
   status = "finished"
   genre = "scifi"

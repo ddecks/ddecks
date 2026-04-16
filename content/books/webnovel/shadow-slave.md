@@ -1,10 +1,12 @@
 +++
 title = "Shadow Slave"
 date = "2024-09-16"
-tags = ["all-time", "progressive", "dystopian", "scifi", "serial", "webnovel"]
+tags = ["all-time", "progressive", "dystopian", "scifi", "serial", "webnovel", "abandoned"]
 [params]
   author = "Guiltythree"
+  publish_date = "2022"
   rating = 98
+  recommender = "WN"
   status = "abandoned"
   genre = "webnovel"
 +++

@@ -1,10 +1,12 @@
 +++
 title = "Underlord"
 date = "2024-09-16"
-tags = ["progressive", "fantasy", "multi-reality", "magic", "series"]
+tags = ["progressive", "fantasy", "multi-reality", "magic", "series", "abandoned"]
 [params]
   author = "Will Wight"
+  publish_date = "2016"
   rating = 70
+  recommender = "reddit"
   status = "abandoned"
   genre = "webnovel"
 +++

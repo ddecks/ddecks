@@ -1,9 +1,11 @@
 +++
 title = "The Wandering Inn"
-tags = ["levels", "classes", "jobs", "serial", "parallel", "world"]
+tags = ["levels", "classes", "jobs", "serial", "parallel", "world", "abandoned"]
 [params]
   author = "pirataba"
+  publish_date = "Ongoing"
   rating = 96
+  recommender = "Reddit tier list pretty sure"
   status = "abandoned"
   genre = "webnovel"
 +++

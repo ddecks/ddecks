@@ -1,10 +1,12 @@
 +++
 title = "The Bobiverse"
 date = "2024-09-16"
-tags = ["space", "ai", "von-nueman", "series"]
+tags = ["space", "ai", "von-nueman", "series", "abandoned"]
 [params]
   author = "Dennis E. Taylor"
+  publish_date = "2018"
   rating = 89
+  recommender = "Devin"
   status = "abandoned"
   genre = "scifi"
 +++

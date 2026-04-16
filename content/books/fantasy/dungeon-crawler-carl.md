@@ -1,10 +1,12 @@
 +++
 title = "Dungeon Crawler Carl"
 date = "2024-11-25"
-tags = ["dungeon", "leveling", "cat", "LitRPG"]
+tags = ["dungeon", "leveling", "cat", "LitRPG", "abandoned"]
 [params]
   author = "Matt Dinniman"
+  publish_date = "2024"
   rating = 72
+  recommender = "https://cosmiccoding.com.au/reviews/"
   status = "abandoned"
   genre = "fantasy"
 +++
@@ -14,5 +16,4 @@ Quick sum:   Princess Donut is a great character so far. Reads really quick, goo
 Really great book, loved so many aspects of it. Things I didn't like
 - it's like never ending it seems, I mean that by I'm not really gripped by what's happening to the characters all that much and things jump around all the time. He also has so many books and he writes them pretty quickly but I feel as if there's some aspects missing. I should circle back here because it's a great series and it's done pretty well but maybe I binged too much too quickly and I think I need to start reading a little more actively (intentionally) that way it sticks with me more and binge a little bit less. 
 
-> **Started: Finished:**
 > [Goodreads+](https://www.goodreads.com/search?qid=&q=9780593820247)

@@ -1,10 +1,12 @@
 +++
 title = "The Legendary Mechanic"
 date = "2024-09-16"
-tags = ["game", "fantasy", "Mech", "Progressive", "Webnovel", "Chinese", "scifi"]
+tags = ["game", "fantasy", "Mech", "Progressive", "Webnovel", "Chinese", "scifi", "finished"]
 [params]
   author = "Qi Peijia"
+  publish_date = "2021"
   rating = 89
+  recommender = "Reddit"
   status = "finished"
   genre = "webnovel"
 +++

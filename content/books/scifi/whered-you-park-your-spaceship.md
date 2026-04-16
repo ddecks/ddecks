@@ -1,10 +1,12 @@
 +++
 title = "Whered You Park Your Spaceship"
 date = "2024-09-16"
-tags = ["scifiesque", "christian_undertonnes", "romantic"]
+tags = ["scifiesque", "christian_undertonnes", "romantic", "finished"]
 [params]
   author = "Rob Bell"
+  publish_date = "2023"
   rating = 81
+  recommender = "Maston Turner"
   status = "finished"
   genre = "scifi"
 +++

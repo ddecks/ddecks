@@ -1,10 +1,11 @@
 +++
 title = "When the Moon Hits Your Eye"
 date = "2025-03-24"
-tags = ["#", "s", "c", "i", "f", "i"]
+tags = ["scifi", "potential"]
 [params]
   author = "John Scalzi"
-  rating = "/10"
+  publish_date = "2025"
+  recommender = "https://shkspr.mobi/blog/2024/12/book-review-when-the-moon-hits-your-eye-john-scalzi/"
   status = "potential"
   genre = "scifi"
 +++
@@ -13,5 +14,4 @@ tags = ["#", "s", "c", "i", "f", "i"]
 Quick sum: Scifi stuff an homage to Seveneves by Neal Stephenson Moon blew up
 this is the moon turned to cheese
 
-> **Started: Finished:**
 > [Goodreads+](https://www.goodreads.com/search?qid=&q=9781509835300)

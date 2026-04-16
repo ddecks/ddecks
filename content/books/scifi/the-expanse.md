@@ -1,10 +1,12 @@
 +++
 title = "The Expanse"
 date = "2024-09-16"
-tags = ["scifi", "space", "aliens", "terrorists", "class-war"]
+tags = ["scifi", "space", "aliens", "terrorists", "class-war", "abandoned"]
 [params]
   author = "James S. A. Corey"
+  publish_date = "2011"
   rating = 70
+  recommender = "RJ K."
   status = "abandoned"
   genre = "scifi"
 +++

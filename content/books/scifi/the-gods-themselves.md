@@ -1,9 +1,10 @@
 +++
 title = "The Gods Themselves"
 date = "2024-09-16"
+tags = ["potential"]
 [params]
   author = "Isaac Asimov"
-  rating = "/10"
+  publish_date = "2000"
   status = "potential"
   genre = "scifi"
 +++

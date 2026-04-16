@@ -1,10 +1,12 @@
 +++
 title = "He Who Fights with Monsters"
 date = "2024-09-16"
-tags = ["Comedy", "fantasy", "multi-universe", "gods", "super-gods", "progressive", "fantasy", "series"]
+tags = ["Comedy", "fantasy", "multi-universe", "gods", "super-gods", "progressive", "fantasy", "series", "abandoned"]
 [params]
   author = "Shirtaloon"
+  publish_date = "2005"
   rating = 80
+  recommender = "RR"
   status = "abandoned"
   genre = "fantasy"
 +++

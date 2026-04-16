@@ -1,10 +1,12 @@
 +++
 title = "Super Supportive"
 date = "2024-09-16"
-tags = ["Aliens", "universe", "jobs", "serial", "RR", "levels", "progressive"]
+tags = ["Aliens", "universe", "jobs", "serial", "RR", "levels", "progressive", "ongoing"]
 [params]
   author = "Sleyca"
+  publish_date = "2022"
   rating = 95
+  recommender = "RR"
   status = "ongoing"
   genre = "webnovel"
 +++
