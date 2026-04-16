@@ -1,10 +1,12 @@
 +++
 title = "Start with Why"
 date = "2024-09-16"
-tags = ["company", "business_philosophy"]
+tags = ["company", "business_philosophy", "finished"]
 [params]
   author = "Simon Sinek"
+  publish_date = "2011"
   rating = 61
+  recommender = "Keith Amidon"
   status = "finished"
   genre = "nonfiction"
 +++
@@ -13,5 +15,4 @@ tags = ["company", "business_philosophy"]
 
 Quick sum: It wasn't my favorite book but the better of the two recomendations I got from Keith. Highlights foundging groundwork with companies and their success
 
-# Start With Wy
-URL: Goodreads
+# Start With Why

@@ -1,10 +1,12 @@
 +++
 title = "Sapiens and Homo Deus"
 date = "2024-09-16"
-tags = ["origin-story"]
+tags = ["origin-story", "finished"]
 [params]
   author = "Yuval Noah Harari"
+  publish_date = "2017"
   rating = 70
+  recommender = "Elon Musk"
   status = "finished"
   genre = "nonfiction"
 +++

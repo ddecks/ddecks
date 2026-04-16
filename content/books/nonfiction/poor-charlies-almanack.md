@@ -1,10 +1,12 @@
 +++
 title = "Poor Charlie's Almanack"
 date = "2024-09-19"
-tags = ["business_philosophy", "philosophy", "finance", "fi"]
+tags = ["business_philosophy", "philosophy", "finance", "fi", "finished"]
 [params]
   author = "Charles T. Munger"
+  publish_date = "2004"
   rating = 79
+  recommender = "Christian https://bagerbach.com/"
   status = "finished"
   genre = "nonfiction"
 +++

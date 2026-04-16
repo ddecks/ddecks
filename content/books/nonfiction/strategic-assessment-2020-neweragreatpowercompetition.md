@@ -1,5 +1,7 @@
 +++
-title = "Untitled"
+title = "Strategic assessment 2020 NewEraGreatPowerCompetition"
+date = "2024-08-26"
+tags = ["finished"]
 [params]
   rating = 50
   status = "finished"

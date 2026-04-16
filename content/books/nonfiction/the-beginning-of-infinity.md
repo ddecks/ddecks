@@ -1,10 +1,12 @@
 +++
 title = "The Beginning of Infinity"
 date = "2024-09-16"
-tags = ["origin-story", "human-condition"]
+tags = ["origin-story", "human-condition", "finished"]
 [params]
   author = "David Deutsch"
+  publish_date = "2011"
   rating = 76
+  recommender = "Elon Musk"
   status = "finished"
   genre = "nonfiction"
 +++

@@ -1,5 +1,7 @@
 +++
-title = "Untitled"
+title = "Guide on Linux"
+date = "2024-09-12"
+tags = ["abandoned"]
 [params]
   rating = "4.6"
   status = "abandoned"

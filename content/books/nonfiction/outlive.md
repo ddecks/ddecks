@@ -1,10 +1,12 @@
 +++
 title = "Outlive"
 date = "2024-09-16"
-tags = ["Health"]
+tags = ["Health", "finished"]
 [params]
   author = "Peter Attia"
+  publish_date = "2022"
   rating = 60
+  recommender = "Huberman"
   status = "finished"
   genre = "nonfiction"
 +++

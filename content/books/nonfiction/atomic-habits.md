@@ -1,10 +1,12 @@
 +++
 title = "Atomic Habits"
 date = "2024-09-16"
-tags = ["self-help", "guides"]
+tags = ["self-help", "guides", "finished"]
 [params]
   author = "James Clear"
+  publish_date = "2021"
   rating = 90
+  recommender = "Devin"
   status = "finished"
   genre = "nonfiction"
 +++

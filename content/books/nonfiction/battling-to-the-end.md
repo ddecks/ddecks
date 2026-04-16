@@ -1,10 +1,11 @@
 +++
 title = "Battling to the End"
 date = "2025-06-09"
-tags = ["#", "c", "r", "i", "t", "i", "q", "u", "e"]
+tags = ["critique", "potential"]
 [params]
   author = "René Girard"
-  rating = "/10"
+  publish_date = "2009"
+  recommender = "Salmagundi"
   status = "potential"
   genre = "nonfiction"
 +++
@@ -12,5 +13,4 @@ tags = ["#", "c", "r", "i", "t", "i", "q", "u", "e"]
 ![Cover](https://books.google.com/books/content?id=yCt5tj9a0JEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
 Quick sum:   
 
-> **Started: Finished:**
 > [Goodreads+](https://www.goodreads.com/search?qid=&q=9781609171339)

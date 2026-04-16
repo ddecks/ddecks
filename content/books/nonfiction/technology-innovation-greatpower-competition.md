@@ -1,5 +1,7 @@
 +++
-title = "Untitled"
+title = "Technology Innovation GreatPower Competition"
+date = "2024-09-12"
+tags = ["finished"]
 [params]
   rating = 50
   status = "finished"

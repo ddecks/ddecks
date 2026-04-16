@@ -1,10 +1,12 @@
 +++
 title = "Good to Great"
 date = "2024-09-16"
-tags = ["business_philosophy"]
+tags = ["business_philosophy", "finished"]
 [params]
   author = "Jim Collins"
+  publish_date = "2001"
   rating = 30
+  recommender = "Keith Amidon"
   status = "finished"
   genre = "nonfiction"
 +++

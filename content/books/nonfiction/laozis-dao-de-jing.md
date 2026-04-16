@@ -1,10 +1,11 @@
 +++
 title = "Laozi's Dao De Jing"
 date = "2024-09-18"
-tags = ["classic", "reinterpretation", "translation"]
+tags = ["classic", "reinterpretation", "translation", "potential"]
 [params]
   author = "Laozi, Ken Liu"
-  rating = "/10"
+  publish_date = "2024"
+  recommender = "LaAvar Burton"
   status = "potential"
   genre = "nonfiction"
 +++

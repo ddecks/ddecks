@@ -1,10 +1,12 @@
 +++
 title = "The Untethered Soul"
 date = "2024-09-18"
-tags = ["#", "s", "e", "l", "f", "-", "h", "e", "l", "p", " ", "#", "p", "h", "i", "l", "o", "s", "o", "p", "h", "y"]
+tags = ["self-help", "philosophy", "finished"]
 [params]
   author = "Michael A. Singer"
+  publish_date = "2007"
   rating = 88
+  recommender = "Jenn"
   status = "finished"
   genre = "nonfiction"
 +++

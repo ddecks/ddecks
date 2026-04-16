@@ -1,18 +1,16 @@
 +++
-title = "Untitled"
+title = "The Philosophy of the Mòzĭ"
 date = "2026-03-06"
-tags = ["[", "p", "h", "i", "l", "o", "s", "o", "p", "h", "y", ",", " ", "c", "h", "i", "n", "e", "s", "e", "]"]
+tags = ["philosophy", "chinese", "potential"]
 [params]
+  author = "Chris Fraser"
+  publish_date = "2016"
+  recommender = "Undying immortal system series"
+  status = "potential"
   genre = "nonfiction"
 +++
 
-# The Philosophy of the Mòzĭ
 ![Cover](https://books.google.com/books/content?id=J76lDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
 Quick sum: Not quite sure but this is the universe that the MC adopted  
 
-> **Started: Finished:**
 > [Goodreads+](https://www.goodreads.com/search?qid=&q=9780231520591)
-
- 
-
-# The Philosophy of the Mòzĭ
