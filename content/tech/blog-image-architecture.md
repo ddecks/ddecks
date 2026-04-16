@@ -101,5 +101,4 @@ Then in a Hugo post:
 {{< figure src=https://images.midnightdmdecke.click/posts/20251011_180935.jpg alt=20251011_180935.jpg width=300px >}} 
 {{< figure src=https://images.midnightdmdecke.click/posts/20260106_190734.jpg alt=20260106_190734.jpg width=300px >}} 
 {{< figure src=https://images.midnightdmdecke.click/posts/20260322_154745.jpg alt=20260322_154745.jpg width=300px >}}
-{{< figure src=https://images.midnightdmdecke.click/posts/20260324_143648.jpgalt=20260324_143648.jpg width=300px >}}
 {{< figure src=https://images.midnightdmdecke.click/posts/Drawing_assist_20251231_170426.jpg alt=Drawing_assist_20251231_170426.jpg width=300px >}} Drawing_assist_20251231_170426.jpg
