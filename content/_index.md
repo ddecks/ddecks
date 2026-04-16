@@ -19,5 +19,5 @@ A half-brother to Ben Chip (rip_Cameron)
 A family to many but important ones like Ian & David
 
 Friends to many but mostly volleyball centric
-![Dad and daughter holding  hands](https://images.midnightdmdecke.click/posts/daddaughterholdinghands.jpg)
+<img src="https://images.midnightdmdecke.click/posts/daddaughterholdinghands.jpg"alt="alt" width="400">
 {{% children type="list" description=true %}}
