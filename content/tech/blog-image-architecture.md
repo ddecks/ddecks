@@ -10,43 +10,6 @@ weight = 2
 
 I needed image hosting for this blog. Adding images directly to the GitHub repo would bloat it over time, and I wanted something I controlled with usage monitoring and cost protection.
 
-## The Architecture
-
-{{< mermaid >}}
-graph LR
-    subgraph Viewers
-        B[Blog Reader]
-        H[Hotlinker]
-    end
-
-    subgraph AWS
-        CF[CloudFront CDN]
-        S3I[S3: Images]
-        S3L[S3: Logs]
-        LP[Lambda: Log Processor]
-        CB[Lambda: Circuit Breaker]
-        SNS[SNS: Alerts]
-        BUD[AWS Budget]
-        R53[Route 53]
-        ACM[ACM Certificate]
-    end
-
-    B -->|HTTPS| R53
-    H -->|HTTPS| R53
-    R53 -->|images.midnightdmdecke.click| CF
-    ACM -.->|TLS| CF
-    CF -->|OAC| S3I
-    CF -->|Access Logs| S3L
-    S3L -->|S3 Event| LP
-    LP -->|Hotlink Alert| SNS
-    LP -->|Daily Warning| SNS
-    LP -->|Request Spike| CB
-    CB -->|Disable CF| CF
-    CB -->|Alert| SNS
-    BUD -->|Budget Exceeded| CB
-    SNS -->|Email| E[kinaidecker@gmail.com]
-{{< /mermaid >}}
-
 ## How It Works
 
 **Serving images:** CloudFront sits in front of a private S3 bucket. The bucket has no public access — CloudFront authenticates via Origin Access Control (OAC). Route 53 points `images.midnightdmdecke.click` to the distribution with a free ACM certificate for HTTPS.
@@ -101,4 +64,4 @@ Then in a Hugo post:
 {{< figure src=https://images.midnightdmdecke.click/posts/20251011_180935.jpg alt=20251011_180935.jpg width=300px >}} 
 {{< figure src=https://images.midnightdmdecke.click/posts/20260106_190734.jpg alt=20260106_190734.jpg width=300px >}} 
 {{< figure src=https://images.midnightdmdecke.click/posts/20260322_154745.jpg alt=20260322_154745.jpg width=300px >}}
-{{< figure src=https://images.midnightdmdecke.click/posts/Drawing_assist_20251231_170426.jpg alt=Drawing_assist_20251231_170426.jpg width=300px >}} Drawing_assist_20251231_170426.jpg
+{{< figure src=https://images.midnightdmdecke.click/posts/Drawing_assist_20251231_170426.jpg alt=Drawing_assist_20251231_170426.jpg width=300px >}} 
