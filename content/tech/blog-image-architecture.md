@@ -12,7 +12,7 @@ I needed image hosting for this blog. Adding images directly to the GitHub repo 
 
 ## The Architecture
 
-```mermaid
+{{< mermaid >}}
 graph LR
     subgraph Viewers
         B[Blog Reader]
@@ -45,7 +45,7 @@ graph LR
     CB -->|Alert| SNS
     BUD -->|Budget Exceeded| CB
     SNS -->|Email| E[kinaidecker@gmail.com]
-```
+{{< /mermaid >}}
 
 ## How It Works
 
