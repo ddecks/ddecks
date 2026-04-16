@@ -1,5 +1,4 @@
 +++
-linktitle = 'About Me'
 title = 'Bio'
 type = 'home'
 +++

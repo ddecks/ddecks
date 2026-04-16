@@ -4,3 +4,8 @@ weight = 5
 +++
 
 Book notes and reviews organized by genre.
+
+### Tags
+{{< section-tags >}}
+
+{{% children type="list" description=true %}}

@@ -1,0 +1,17 @@
+{{ $tags := slice }}
+{{ range .Page.CurrentSection.Pages }}
+  {{ range .Params.tags }}
+    {{ $tags = $tags | append . }}
+  {{ end }}
+  {{ range .Pages }}
+    {{ range .Params.tags }}
+      {{ $tags = $tags | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $tags = $tags | uniq | sort }}
+{{ if $tags }}
+<div class="section-tags">
+{{ range $tags }}<a href="{{ "tags/" | absURL }}{{ . | urlize }}/" class="badge badge-default">{{ . }}</a> {{ end }}
+</div>
+{{ end }}
