@@ -1,6 +1,5 @@
 # Hey 👋
 
-I build CLI tools, tinker with hardware projects, and study for AWS certs in my terminal. I like solving problems with minimal, practical tools — if it needs a build system, it's probably too complex.
 
 ## What I'm working on
 
