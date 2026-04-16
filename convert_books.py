@@ -21,30 +21,66 @@ def parse_front_matter(text: str) -> tuple[dict, str]:
     if not m:
         return {}, text
     raw, body = m.group(1), m.group(2).strip()
-    meta = {}
-    current_list_key = None
-    for line in raw.split("\n"):
-        if re.match(r"^\s+-\s+", line) and current_list_key:
-            val = re.sub(r"^\s+-\s+", "", line).strip().strip('"').strip("'")
-            meta.setdefault(current_list_key, []).append(val)
+    meta: dict = {}
+    lines = raw.split("\n")
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        # YAML list item under a key (e.g. "  - self-help")
+        if re.match(r"^\s+-\s+", line):
+            i += 1
             continue
-        current_list_key = None
         if ":" not in line:
+            i += 1
             continue
         key, val = line.split(":", 1)
         key = key.strip()
-        val = val.strip().strip('"').strip("'")
+        val = val.strip()
+        # Handle inline array: Tags: [interview, software, system-design, learning]
+        if val.startswith("[") and val.endswith("]"):
+            items = [v.strip().strip('"').strip("'").lstrip("#") for v in val[1:-1].split(",") if v.strip()]
+            meta[key] = items
+            i += 1
+            continue
+        # Strip surrounding quotes
+        val = val.strip('"').strip("'")
+        # Value is empty — could be a multi-line value or YAML list
         if not val:
-            current_list_key = key
-        else:
-            meta[key] = val
+            # Peek ahead for indented continuation (value or list)
+            collected_list = []
+            j = i + 1
+            while j < len(lines) and re.match(r"^\s+", lines[j]):
+                stripped = lines[j].strip()
+                if stripped.startswith("- "):
+                    item = stripped[2:].strip().strip('"').strip("'").lstrip("#")
+                    collected_list.append(item)
+                elif stripped:
+                    # Indented continuation value (e.g. Title on next line)
+                    val = stripped.strip('"').strip("'")
+                j += 1
+            if collected_list:
+                meta[key] = collected_list
+            elif val:
+                meta[key] = val
+            else:
+                meta[key] = ""
+            i = j
+            continue
+        # Single hashtag tag value: Tags: #carpedeim
+        if key.lower() == "tags" and val.startswith("#"):
+            meta[key] = [v.strip().lstrip("#") for v in val.split() if v.strip()]
+            i += 1
+            continue
+        meta[key] = val
+        i += 1
     return meta, body
 
 
 def clean_body(body: str, title: str) -> str:
     body = re.sub(r"^#\s+" + re.escape(title) + r"\s*$", "", body, flags=re.MULTILINE)
     body = re.sub(r"^#\s+Title:\s+" + re.escape(title) + r"\s*$", "", body, flags=re.MULTILINE)
-    body = re.sub(r"^(Cover|URL)::\s*.*$", "", body, flags=re.MULTILINE)
+    body = re.sub(r"^(Cover|URL)::?\s*.*$", "", body, flags=re.MULTILINE)
+    body = re.sub(r">\s*\[!Started:.*?Finished:.*?\]", "", body)
     body = re.sub(r">\s*\[!(.*?)\]", r"> **\1**", body)
     body = re.sub(r"\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]", lambda m: m.group(2) or m.group(1), body)
     body = re.sub(r"!\[Cover\]\(\)\s*", "", body)
@@ -56,14 +92,24 @@ def esc(s: str) -> str:
     return s.replace("\\", "\\\\").replace('"', '\\"')
 
 
-def to_hugo_page(meta: dict, body: str, genre: str) -> str:
-    title = meta.get("Title", "Untitled")
+def to_hugo_page(meta: dict, body: str, genre: str, filename: str = "") -> str:
+    title = meta.get("Title", "") or filename.replace("_", " ") or "Untitled"
     author = meta.get("Author", "")
+    publish_date = meta.get("Publish date", "")
     rating = meta.get("Rating", "")
+    recommender = meta.get("Recommender", "")
     status = meta.get("Status", "")
     tags = meta.get("Tags") or meta.get("tags") or []
-    date = meta.get("Created", "")
+    if isinstance(tags, str):
+        tags = [t.strip().lstrip("#") for t in tags.split(",") if t.strip()]
+    # Add status as a tag
+    if status and status not in tags:
+        tags.append(status)
+    # Use Created date from vault
+    date = meta.get("Created", "") or meta.get("created", "") or meta.get("Date", "")
     if isinstance(date, str):
+        # Strip wrapping like 'created: 2024-08-26'
+        date = re.sub(r"^created:\s*", "", date).strip('"').strip("'")
         date = date.split(" ")[0]
 
     lines = ["+++"]
@@ -76,11 +122,15 @@ def to_hugo_page(meta: dict, body: str, genre: str) -> str:
     lines.append("[params]")
     if author:
         lines.append(f'  author = "{esc(author)}"')
-    if rating:
+    if publish_date:
+        lines.append(f'  publish_date = "{esc(publish_date)}"')
+    if rating and rating != "/10":
         try:
             lines.append(f"  rating = {int(rating)}")
         except (ValueError, TypeError):
             lines.append(f'  rating = "{esc(str(rating))}"')
+    if recommender:
+        lines.append(f'  recommender = "{esc(recommender)}"')
     if status:
         lines.append(f'  status = "{esc(status)}"')
     if genre:
@@ -111,7 +161,7 @@ def main():
             meta, body = parse_front_matter(text)
             if not meta:
                 continue
-            hugo_content = to_hugo_page(meta, body, genre_slug)
+            hugo_content = to_hugo_page(meta, body, genre_slug, md_file.stem)
             slug = slugify(md_file.stem)
             out_path = out_dir / f"{slug}.md"
             out_path.write_text(hugo_content, encoding="utf-8")
