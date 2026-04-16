@@ -7,7 +7,6 @@ weight = 20
 
 Original poems written over the years.
 
-### Tags
 {{< section-tags >}}
 
 {{% children type="list" description=true %}}

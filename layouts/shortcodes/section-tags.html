@@ -11,7 +11,10 @@
 {{ end }}
 {{ $tags = $tags | uniq | sort }}
 {{ if $tags }}
+<details>
+<summary>Tags ({{ len $tags }})</summary>
 <div class="section-tags">
-{{ range $tags }}<a href="{{ "tags/" | absURL }}{{ . | urlize }}/" class="badge badge-default">{{ . }}</a> {{ end }}
+{{ range $tags }}<a href="{{ "tags/" | absURL }}{{ . | urlize }}/">{{ . }}</a> {{ end }}
 </div>
+</details>
 {{ end }}

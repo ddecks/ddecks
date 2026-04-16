@@ -7,7 +7,6 @@ weight = 15
 
 A collection of thoughts, analysis, and tournament experiences from playing beach volleyball.
 
-### Tags
 {{< section-tags >}}
 
 {{% children type="list" description=true %}}
