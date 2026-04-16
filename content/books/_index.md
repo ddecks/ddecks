@@ -7,4 +7,4 @@ Book notes and reviews organized by genre.
 
 {{< section-tags >}}
 
-{{% children type="list" description=true %}}
+{{< children-with-tags >}}

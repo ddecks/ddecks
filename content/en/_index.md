@@ -20,4 +20,5 @@ A family to many but important ones like Ian & David
 Friends to many but mostly volleyball centric
 
 {{< figure src="https://images.midnightdmdecke.click/posts/daddaughterholdinghands.jpg" alt="Dad and daughter holding hands" width="300px" >}}
-{{% children type="list" description=true %}}
+
+{{< children-with-tags >}}

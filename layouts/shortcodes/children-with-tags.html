@@ -1,0 +1,28 @@
+{{ range .Page.CurrentSection.Sections }}
+<div class="child-section" style="margin-bottom: 1.5em;">
+<h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+{{ with .Description }}<p>{{ . }}</p>{{ end }}
+{{ $tags := slice }}
+{{ range .Pages }}
+  {{ range .Params.tags }}
+    {{ $tags = $tags | append . }}
+  {{ end }}
+{{ end }}
+{{ range .Sections }}
+  {{ range .Pages }}
+    {{ range .Params.tags }}
+      {{ $tags = $tags | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $tags = $tags | uniq | sort }}
+{{ if $tags }}
+<details>
+<summary>Tags ({{ len $tags }})</summary>
+<div class="section-tags">
+{{ range $tags }}<a href="{{ "tags/" | absURL }}{{ . | urlize }}/">{{ . }}</a> {{ end }}
+</div>
+</details>
+{{ end }}
+</div>
+{{ end }}
