@@ -20,4 +20,4 @@
 
 ## Writing
 
-I blog at **[ddecks.github.io](https://ddecks.github.io)** about builds, tools, and the occasional rabbit hole.
+I blog at **[ddecks.github.io](https://ddecks.github.io/ddecks/)** about builds, tools, and the occasional rabbit hole.
