@@ -27,7 +27,7 @@ I'm using the same study approach: practice questions with cert-drill, reasoning
 
 ### Study Materials
 
-- [MLA-C01 Reading List]({{< relref "mla-c01-reading-list" >}}) — Curated links organized by exam domain with estimated reading times
-- [MLA-C01 Study Articles]({{< relref "mla-c01-study-articles" >}}) — Compiled notes covering all four domains plus ML foundations
+- [MLA-C01 Reading List]({{% relref "mla-c01-reading-list" %}}) — Curated links organized by exam domain with estimated reading times
+- [MLA-C01 Study Articles]({{% relref "mla-c01-study-articles" %}}) — Compiled notes covering all four domains plus ML foundations
 
 More to come as I work through the material.
