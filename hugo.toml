@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title ='ddecks'
 theme = 'hugo-theme-relearn'
 defaultContentLanguage = 'en'
+
+[markup.goldmark.parser.attribute]
+  block = true
