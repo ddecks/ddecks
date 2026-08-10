@@ -544,3 +544,26 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+/* Format List */
+.format-list {
+  max-width: 700px;
+  margin: 2rem auto 0;
+}
+
+.format-item {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+.format-item strong {
+  color: var(--color-text);
+  display: inline-block;
+  min-width: 100px;
+}
+
+.format-item a {
+  color: var(--color-accent);
+}
