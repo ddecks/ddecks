@@ -1,0 +1,26 @@
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <span class="footer-logo">DDV</span>
+      <p>Beach volleyball coaching & training. Elevate your game with personalized instruction and video analysis.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Coaching</h4>
+      <ul>
+        <li><a href="/#coaching">Private Sessions</a></li>
+        <li><a href="/#coaching">Group Training</a></li>
+        <li><a href="/#coaching">Video Analysis</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Connect</h4>
+      <ul>
+        {{ with .Site.Params.instagram }}<li><a href="https://instagram.com/{{ . }}" target="_blank">Instagram</a></li>{{ end }}
+        {{ with .Site.Params.email }}<li><a href="mailto:{{ . }}">Email</a></li>{{ end }}
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; {{ now.Year }} Devin Decker Volleyball. All rights reserved.</p>
+  </div>
+</footer>

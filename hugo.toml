@@ -1,8 +1,20 @@
-baseURL = 'https://ddecks.github.io/ddecks/'
+baseURL = 'https://midnight-dmdecke.com/'
 languageCode = 'en-us'
-title ='ddecks'
-theme = 'hugo-theme-relearn'
-defaultContentLanguage = 'en'
+title = 'Devin Decker Volleyball'
+theme = 'coaching'
+
+[params]
+  tagline = "Beach Volleyball Coaching & Training"
+  description = "Private and group beach volleyball coaching in the DC/Virginia area. Elevate your game with personalized training, video analysis, and tournament prep."
+  author = "Devin Decker"
+  instagram = ""
+  email = "devin@midnight-dmdecke.com"
+  # Images hosted on your existing CDN
+  heroImage = "https://images.midnightdmdecke.click/posts/20250125_170028.jpg"
+  aboutImage = "https://images.midnightdmdecke.click/posts/20250509_160324.jpg"
 
 [markup.goldmark.parser.attribute]
   block = true
+
+[markup.goldmark.renderer]
+  unsafe = true

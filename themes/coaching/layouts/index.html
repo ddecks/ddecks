@@ -1,0 +1,117 @@
+{{ define "main" }}
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <p class="hero-tag">Beach Volleyball Coaching</p>
+    <h1 class="hero-title">TRAIN SMARTER.<br><em>PLAY HARDER.</em></h1>
+    <p class="hero-subtitle">Personalized beach volleyball coaching — private sessions, group training, video analysis, and tournament prep. Based in the DC/Virginia area.</p>
+    <div class="hero-cta">
+      <a href="#coaching" class="btn btn-primary">Book a Session</a>
+      <a href="#about" class="btn btn-secondary">About Devin</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    {{ with .Site.Params.heroImage }}
+    <img src="{{ . }}" alt="Devin Decker playing beach volleyball" loading="eager">
+    {{ end }}
+  </div>
+</section>
+
+<!-- Stats Bar -->
+<section class="stats-bar">
+  <div class="stat">
+    <span class="stat-value">5+</span>
+    <span class="stat-label">Years Competing</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">DC/VA</span>
+    <span class="stat-label">Based</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">All Levels</span>
+    <span class="stat-label">Welcome</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">Beach & Indoor</span>
+    <span class="stat-label">Experience</span>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section about-section">
+  <div class="section-content">
+    <p class="section-tag">The Story</p>
+    <h2>Obsessed with the game.<br>Ready to share it.</h2>
+    <p>I've spent years playing competitive beach volleyball, studying the game obsessively, and building tools (including AI-powered video analysis) to understand what separates good players from great ones.</p>
+    <p>Now I'm channeling that obsession into coaching. Whether you're just starting out or looking to sharpen your competitive edge, I bring a detail-oriented, analytical approach that helps players see the game differently.</p>
+    <p>I'm also building <strong>Beach Volley Vision</strong> — an AI platform for automated scorekeeping, rally detection, and match analysis. My coaching is informed by the same data-driven mindset that powers my technology.</p>
+  </div>
+  <div class="section-image">
+    {{ with .Site.Params.aboutImage }}
+    <img src="{{ . }}" alt="Devin Decker" loading="lazy">
+    {{ end }}
+  </div>
+</section>
+
+<!-- Coaching Section -->
+<section id="coaching" class="section coaching-section">
+  <p class="section-tag">Services</p>
+  <h2>Coaching that meets you<br>where you are.</h2>
+  
+  <div class="services-grid">
+    <div class="service-card">
+      <h3>Private Sessions</h3>
+      <p class="service-price">$75 / session</p>
+      <p>1-on-1 on-sand coaching focused on your specific game. Technique, strategy, positioning — everything tailored to your goals.</p>
+      <ul>
+        <li>Passing & platform control</li>
+        <li>Setting mechanics</li>
+        <li>Attacking approach & timing</li>
+        <li>Defensive positioning</li>
+      </ul>
+      <a href="https://buy.stripe.com/test_eVq00j6rg33yc746BV2Nq03" class="btn btn-primary service-btn">Book Now</a>
+    </div>
+    <div class="service-card">
+      <h3>Group Training</h3>
+      <p class="service-price">$40 / person</p>
+      <p>Small group sessions (2-6 players) with structured drills and competitive game situations. Learn in a team environment.</p>
+      <ul>
+        <li>Partner chemistry drills</li>
+        <li>Transition training</li>
+        <li>Game-like scenarios</li>
+        <li>Tournament prep</li>
+      </ul>
+      <a href="https://buy.stripe.com/test_28EfZheXM7jO8US9O72Nq02" class="btn btn-primary service-btn">Book Now</a>
+    </div>
+    <div class="service-card">
+      <h3>Video Analysis</h3>
+      <p class="service-price">$50 / session</p>
+      <p>Send me your match footage. I'll break down your game with detailed feedback on what to work on and how to improve.</p>
+      <ul>
+        <li>Shot selection review</li>
+        <li>Court positioning analysis</li>
+        <li>Serve & receive patterns</li>
+        <li>Custom training plan</li>
+      </ul>
+      <a href="https://buy.stripe.com/test_4gMcN54j847Cdb8f8r2Nq01" class="btn btn-primary service-btn">Book Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact-section">
+  <p class="section-tag">Get Started</p>
+  <h2>Ready to elevate<br>your game?</h2>
+  <p class="contact-text">Reach out to discuss your goals and we'll put together a training plan that works for you.</p>
+  <div class="contact-methods">
+    {{ with .Site.Params.email }}
+    <a href="mailto:{{ . }}" class="btn btn-primary">Email Me</a>
+    {{ end }}
+    {{ with .Site.Params.instagram }}
+    <a href="https://instagram.com/{{ . }}" class="btn btn-secondary" target="_blank">DM on Instagram</a>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}
