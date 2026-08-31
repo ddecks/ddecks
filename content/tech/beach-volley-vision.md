@@ -6,6 +6,11 @@ tags = ['project', 'ai', 'beach', 'volleyball', 'computer-vision']
 weight = 3
 +++
 
+> **Update (Aug 2026): this project is now open source.**
+> Code on [GitHub](https://github.com/ddecks/beach-volley-vision), fine-tuned model on
+> [Hugging Face](https://huggingface.co/deadfast/beach-volley-vision-models), both MIT
+> licensed. See the [announcement post](/tech/beach-volley-vision-open-source/) for the why.
+
 ## What Is This
 
 I'm building a system that takes raw beach volleyball match video and turns it into stats — automatically. Detect players, track the ball, classify events (serve, pass, set, attack), and spit out useful analytics. No manual tagging required (or at least, minimal).
@@ -81,6 +86,16 @@ Roughly in order:
 - **Rust stats engine** — parse match JSON, compute per-player and per-team stats, zone analysis
 
 ## Dev Log
+
+### 2026-08-31
+
+**Open-sourced it.** A few companies have shipped stronger tooling in this space, so I put
+the whole thing in the open rather than sit on it. Code is on
+[GitHub](https://github.com/ddecks/beach-volley-vision) and the fine-tuned TrackNetV3 ball
+tracker is on [Hugging Face](https://huggingface.co/deadfast/beach-volley-vision-models) —
+both MIT. Scrubbed internal/infra references, added a license and model card, and included
+a small set of example annotation/eval data so the pipeline is runnable out of the box.
+Full write-up: [Open-Sourcing Beach Volley Vision](/tech/beach-volley-vision-open-source/).
 
 ### 2026-04-20
 
